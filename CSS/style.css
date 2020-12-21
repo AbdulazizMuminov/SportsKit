@@ -1,0 +1,145 @@
+body {
+    background-color: #e2e2e2;
+}
+
+.navbar {
+    background: #163055 !important;
+    height: 60px;
+}
+
+.dropdown-menu,
+.dropdown-submenu {
+    background-color: #163055 !important;
+    z-index: 30 !important;
+    border: 1px solid #c58b5b !important;
+}
+
+.card {
+    background-color: transparent !important;
+    border: transparent !important;
+    box-shadow: 1.5rem 1.5rem 1.5rem #163055 !important;
+    transition: 0.8s !important;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    border: none !important;
+    box-shadow: 0 2px 5px 0 #00000029, 0 2px 10px 0 #0000001f !important;
+    background-color: #163055cb !important;
+}
+
+.dropdown-item {
+    color: #ffffff !important;
+    font-family: "Grandstander" !important;
+    font-weight: 500 !important;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    background-color: #c58b5b !important;
+}
+
+.form-control {
+    border: 0 0 0 .4rem #ffffff !important;
+}
+
+.form-control:focus {
+    border-color: #c58b5b !important;
+    box-shadow: 0 0, 0 .2rem #c58b5b !important;
+}
+
+.footer-color {
+    background-color: #163055;
+}
+
+.filterType,
+.filterType2 {
+    background: transparent !important;
+    border-bottom: 7px solid #163055;
+    font-family: "Palatino Linotype";
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #163055 !important;
+}
+
+.filterType2 {
+    border-top: 7px solid #163055;
+    border-bottom: transparent;
+}
+
+.hvr-sweep-to-top,
+.hvr-sweep-to-bottom {
+    color: #163055;
+    font-family: "Denk One";
+}
+
+.hvr-sweep-to-top:before {
+    background: linear-gradient(to bottom, #e2e2e2, #163055, #163055, #163055);
+    color: #163055 !important;
+}
+
+.hvr-sweep-to-bottom::before {
+    background: linear-gradient(to bottom, #163055, #163055, #163055, #e2e2e2);
+    color: #163055 !important;
+}
+
+.hvr-sweep-to-top:hover,
+.hvr-sweep-to-bottom:hover {
+    color: #e2e2e2 !important;
+}
+
+.item-color {
+    font-family: 'Langar';
+    background: -webkit-linear-gradient(0deg, #c58b5b, #0eb0b6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.item-name {
+    font-family: 'Trade Winds';
+    font-size: 1.3rem;
+    font-weight: bolder;
+    transition: 0.8;
+}
+
+.price {
+    transition: 0.8;
+}
+
+.card:hover .item-name,
+.card:hover .price {
+    color: #c58b5b !important;
+}
+
+.da-img {
+    top: 0 !important;
+}
+
+.da-slider {
+    border-top: 8px solid #163055;
+    border-bottom: 8px solid #163055;
+    margin-top: 3.78rem;
+}
+
+.da-slide h2 {
+    font-family: "Langar";
+    color: #c58b5b;
+    font-size: 3.5rem;
+}
+
+.da-slide p {
+    font-weight: bold !important;
+    font-size: 1.8rem;
+}
+
+.da-link,
+.da-link::before,
+.da-link::after,
+.da-link:hover {
+    height: 60px;
+    background-color: transparent !important;
+    color: #163055 !important;
+    border-color: #163055 !important;
+    border: 4px solid #163055 !important;
+}
